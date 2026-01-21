@@ -18,8 +18,7 @@ High-fidelity social simulation demands agents capable of authentically replicat
 2.  **Adaptive Strategy:** Autonomously switch between **Cooperation**, **Competition**, and **Coopetition** (collaborative competition).
 3.  **Ensure Rationality:** Make sequentially rational decisions under uncertainty without needing full information.
 
-![Framework Overview](assets/framework_overview.png)
-*(Note: Please upload Figure 2 from the paper to an `assets` folder and reference it here)*
+![image-20260121145346282](assets/image-20260121145346282.png)
 
 ---
 
