@@ -1,0 +1,39 @@
+data:
+  medqa_path: data/medqa_mc_test.json
+  court_path: data/criminal_cases.json
+  persona_path: data/Synthetic_persona_chat_test.json
+  log_path: logs
+  output_path: results
+
+base_url: &url http://localhost:11434
+temperature: &temp 0.4
+max_tokens: 4096
+max_rounds: 4
+repeat_penalty: &rp 1.5
+
+# ynie/roberta-large-snli_mnli_fever_anli_R1_R2_R3-nli
+nli_model_path: /data/Hickey/roberta-nli
+real_chat_turns: 8
+
+belief:
+  decay: 0.6
+  belief_change_threshold: 0.05
+  consensus_threshold: 0.1
+  early_stop_round: 3
+
+
+util_llm:
+  MinP: 0
+  TopK: 20
+  TopP: 0.95
+  model_name: llama3.1:8b
+
+role_llm:
+  MinP: 0
+  TopK: 20
+  TopP: 0.95
+  model_name: llama3.1:8b
+
+# gemma3:12b
+# llama3.1:8b
+# qwen3:30b-a3b
