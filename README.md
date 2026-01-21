@@ -134,7 +134,3 @@ For any questions, please contact:
 
 - **Weiwei Fang**: `311137@whut.edu.cn`
 - **Lin Li**: `cathylilin@whut.edu.cn`
-
-------
-
-*This work is supported by the National Natural Science Foundation of China and The Education University of Hong Kong.*
